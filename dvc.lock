@@ -16,3 +16,18 @@ stages:
     - path: y.csv
       md5: 8870354405a58d988cee938d17b8b147
       size: 475
+  train:
+    cmd: python ./train.py
+    deps:
+    - path: X.csv
+      md5: 7d590865f797d0e66307c84bcbeb5f20
+      size: 475
+    - path: train.py
+      md5: 214b2766be6636b14f5aea09d91c5b06
+      size: 637
+    - path: y.csv
+      md5: 8870354405a58d988cee938d17b8b147
+      size: 475
+    params:
+      params.yaml:
+        C: 1.0
