@@ -1,0 +1,4 @@
+[core]
+    remote = localremore
+['remote "localremore"']
+    url = ../../local_remote
