@@ -2,3 +2,5 @@
     remote = localremore
 ['remote "localremore"']
     url = ../../local_remote
+['remote "driveremote"']
+    url = gdrive://17eghGIge3ildXh3FK5_mWqr9hzIm5qyp
